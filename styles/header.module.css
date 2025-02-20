@@ -1,0 +1,12 @@
+.header {
+    background-color: #C197D2;
+    height: 10vh;
+}
+
+.title {
+    font-size: 2rem;
+    color: white;
+    font-family: fantasy;
+    font-weight: 200;
+    text-align: center;
+}  

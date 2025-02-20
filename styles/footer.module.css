@@ -1,0 +1,18 @@
+
+.footer {
+    background-color: #C197D2;
+    height: 10vh;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 300;
+   
+}
+
+.footer a {
+    color: #211522;
+    text-decoration: none;
+}
