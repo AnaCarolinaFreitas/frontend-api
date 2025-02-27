@@ -6,12 +6,6 @@ export default function Card(){
         <div className={styles.topic}>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-        <div className={styles.topic}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div className={styles.topic}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
         </div>
     );
 }

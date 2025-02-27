@@ -1,8 +1,11 @@
 .topic {
     background-color: #D3B1C2;
-    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    height: 50%;
+    padding: 1rem;
     margin: 1rem;
-    width: 90%;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -10,5 +13,12 @@
     font-size: 1.5rem;
     color:#F0F0F0;
     font-family:sans-serif;
-    text-align: justify;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .topic {
+        width: 85%;
+        height: 50%;
+    }
 }

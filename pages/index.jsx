@@ -11,6 +11,8 @@ export default function Home(){
             <main className={styles.main}>
                 <div className={styles.left}>
                 <Card />
+                <Card />
+                <Card />
                 </div>
                 <div className={styles.right}>
                     <img src="https://static-cse.canva.com/blob/673258/Mauve_Set1_7.ddf5d8fc.png" alt="lavander field" />
