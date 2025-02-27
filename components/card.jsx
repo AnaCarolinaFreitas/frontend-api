@@ -1,11 +1,11 @@
 import styles from "../styles/card.module.css"
 
-export default function Card(){
+export default function Card({topic, text}){
     return(
-        <div className={styles.cards}>
+        
         <div className={styles.topic}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className={styles.text}>{text}</p>
             </div>
-        </div>
+        
     );
 }

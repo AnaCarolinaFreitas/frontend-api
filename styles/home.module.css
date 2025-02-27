@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     background-color: #F0F0F0;
-    height: 80vh;
+    height: 100%;
    
     
 }
@@ -37,7 +37,15 @@
 .right img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
    
+}
+
+@media (max-width: 1024px) {
+    .left {
+        width: 50%;
+        height: 20%;
+    }
 }
 
 @media (max-width: 768px) {
